@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Notifier",
+  "version": "1.0",
+  "description": "Plays a notification sound when ChatGPT has finished responding.",
+  "icons": {
+    "128": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["tabs", "storage"],
+  "web_accessible_resources": [{"resources": ["notification.mp3"],
+                                "matches": ["https://chat.openai.com/*"]}]}
