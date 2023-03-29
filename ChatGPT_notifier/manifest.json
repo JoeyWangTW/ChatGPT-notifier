@@ -12,6 +12,5 @@
       "js": ["content.js"]
     }
   ],
-  "permissions": ["tabs", "storage"],
-  "web_accessible_resources": [{"resources": ["notification.mp3"],
+ "web_accessible_resources": [{"resources": ["notification.mp3"],
                                 "matches": ["https://chat.openai.com/*"]}]}
