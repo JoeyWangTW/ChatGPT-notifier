@@ -8,9 +8,9 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/*"],
+      "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"],
       "js": ["content.js"]
     }
   ],
  "web_accessible_resources": [{"resources": ["notification.mp3"],
-                                "matches": ["https://chat.openai.com/*"]}]}
+                                "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"]}]}
