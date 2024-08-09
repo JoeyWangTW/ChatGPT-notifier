@@ -1,16 +1,31 @@
 {
   "manifest_version": 3,
   "name": "ChatGPT Notifier",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Plays a notification sound when ChatGPT has finished responding.",
   "icons": {
     "128": "logo.png"
   },
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"],
-      "js": ["content.js"]
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
     }
   ],
- "web_accessible_resources": [{"resources": ["notification.mp3"],
-                                "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"]}]}
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "notification.mp3"
+      ],
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ]
+    }
+  ]
+}
