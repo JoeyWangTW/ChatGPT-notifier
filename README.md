@@ -1,5 +1,7 @@
 # ChatGPT-notification
 
+Packaged version on Chrome Web Store: [ChatGPT Notifier](https://chromewebstore.google.com/detail/chatgpt-notifier/kpbihpkcpnfnjddplngmbljcfofjgejh)
+
 A chrome extension that notifies when ChatGPT is done responding.
 This extension was developed with the help of ChatGPT (GPT4). This is the [complete prompt](prompts/extention_v0.md) 
 
